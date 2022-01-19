@@ -1,6 +1,7 @@
 #!/bin/bash
-# Place this script in your PATH. Currently, the Usage shows this script to be placed local.
-# This script helps develop a meterpreter powershell script to run on Windows machines.
+# Ideally, place the script in your PATH. The Usage below shows this script to be placed in a current local holder.
+#
+# This script develops a meterpreter powershell script to run on Windows machines.
 # Change msfvenom parameters to change target architecture, localhost, and local port. 
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# This script copies tools, and link to the links to Windows privilege escalation. 
+# This script prepares tools and links for Windows privilege escalation. 
 
 if [ "$1" = "-r" ] ; then
 

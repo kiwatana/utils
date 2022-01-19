@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# This scripts move all files to the lab machine's directory after you complete the lab.
+# This script cleanups all files to the lab machine's directory after you complete the lab.
 
 read -p "Enter Lab (pg oscp htb vulnhub thm pta) :" labname
 if [[ -d $HOME/$labname ]]

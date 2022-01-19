@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# This script creats a directory that include subdirectories for your lab practices before you starts the machien.
+# This script creats a directory that include subdirectories for your lab practices before you starts the lab machine.
 
 read -p "Enter Lab (pg oscp htb vulnhub thm pta) :" labname
 if [[ -d $HOME/$labname ]]

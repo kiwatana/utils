@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# This script copies tools, and link to the links to Linux privilege escalation. 
+# This script prepares tools and links for Linux privilege escalation. 
 
 if [ "$1" = "-r" ] ; then
 
